@@ -14,15 +14,12 @@ public class appPessoa {
         Pai pai = new Pai("Dorival",50);
         Filho filho = new Filho ("Alan",31);
         
-        System.out.println("--------Filho ----------------");
-        System.out.println("Nome do Filho -- :" + filho.getNome());
-        System.out.println("Nome do Filho -- :" + filho.getIdade());
-        System.out.println("--------Mãe-------------------");
+        
+        System.out.println("Nome ----------- :" + filho.getNome());
+        System.out.println("Idade ---------- :" + filho.getIdade());
         System.out.println("Nome do Mãe ---- :" + mae.getNome());
-        System.out.println("Nome do Mãe ---- :" + mae.getIdade());
-        System.out.println("--------Pai ------------------");
         System.out.println("Nome do Pai ---- :" + pai.getNome());
-        System.out.println("Nome do Pai ---- :" + pai.getIdade());        
+               
     }
     
 }
